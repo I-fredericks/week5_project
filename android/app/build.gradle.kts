@@ -1,5 +1,8 @@
 plugins {
     id("com.android.application")
+    // START: FlutterFire Configuration
+    id("com.google.gms.google-services")
+    // END: FlutterFire Configuration
     id("kotlin-android")
     // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
     id("dev.flutter.flutter-gradle-plugin")
@@ -41,13 +44,4 @@ android {
 
 flutter {
     source = "../.."
-}
-
-allprojects {
-    repositories {
-        google()  // Keep this
-        mavenCentral()  // Add this as backup
-        maven { url 'https://maven.google.com' }  // Alternative Google repo
-        jcenter()  // Optional, but may help
-    }
 }

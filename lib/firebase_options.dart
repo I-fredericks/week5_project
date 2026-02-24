@@ -29,46 +29,49 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'YOUR_API_KEY',
-    appId: 'YOUR_APP_ID',
-    messagingSenderId: 'YOUR_SENDER_ID',
-    projectId: 'authenticationproject-6f943',
-    authDomain: 'authenticationproject-6f943.firebaseapp.com',
-    storageBucket: 'authenticationproject-6f943.appspot.com',
-    measurementId: 'YOUR_MEASUREMENT_ID',
+    apiKey: 'AIzaSyCwZamxjON8s76sxQNQZollvNUSzt6IdcM',
+    appId: '1:969810967946:web:7ddcb8bac22070ae0f1c73',
+    messagingSenderId: '969810967946',
+    projectId: 'authencationproject-001',
+    authDomain: 'authencationproject-001.firebaseapp.com',
+    storageBucket: 'authencationproject-001.firebasestorage.app',
+    measurementId: 'G-RPM00CFVE1',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'YOUR_ANDROID_API_KEY',
-    appId: 'YOUR_ANDROID_APP_ID',
-    messagingSenderId: 'YOUR_SENDER_ID',
-    projectId: 'authenticationproject-6f943',
-    storageBucket: 'authenticationproject-6f943.appspot.com',
+    apiKey: 'AIzaSyDU16glXluXvKw8rhI9EbtbenwBBM5XDeY',
+    appId: '1:969810967946:android:b0e329607ee3364e0f1c73',
+    messagingSenderId: '969810967946',
+    projectId: 'authencationproject-001',
+    storageBucket: 'authencationproject-001.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'YOUR_IOS_API_KEY',
-    appId: 'YOUR_IOS_APP_ID',
-    messagingSenderId: 'YOUR_SENDER_ID',
-    projectId: 'authenticationproject-6f943',
-    storageBucket: 'authenticationproject-6f943.appspot.com',
+    apiKey: 'AIzaSyAA6i8p3uBDVaC8gDf9PFt0l956VsG-GWE',
+    appId: '1:969810967946:ios:c0b1a181f8d654e10f1c73',
+    messagingSenderId: '969810967946',
+    projectId: 'authencationproject-001',
+    storageBucket: 'authencationproject-001.firebasestorage.app',
     iosBundleId: 'com.example.authenticationproject',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'YOUR_MACOS_API_KEY',
-    appId: 'YOUR_MACOS_APP_ID',
-    messagingSenderId: 'YOUR_SENDER_ID',
-    projectId: 'authenticationproject-6f943',
-    storageBucket: 'authenticationproject-6f943.appspot.com',
+    apiKey: 'AIzaSyAA6i8p3uBDVaC8gDf9PFt0l956VsG-GWE',
+    appId: '1:969810967946:ios:c0b1a181f8d654e10f1c73',
+    messagingSenderId: '969810967946',
+    projectId: 'authencationproject-001',
+    storageBucket: 'authencationproject-001.firebasestorage.app',
     iosBundleId: 'com.example.authenticationproject',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'YOUR_WINDOWS_API_KEY',
-    appId: 'YOUR_WINDOWS_APP_ID',
-    messagingSenderId: 'YOUR_SENDER_ID',
-    projectId: 'authenticationproject-6f943',
-    storageBucket: 'authenticationproject-6f943.appspot.com',
+    apiKey: 'AIzaSyCwZamxjON8s76sxQNQZollvNUSzt6IdcM',
+    appId: '1:969810967946:web:e6404ad53ce5be900f1c73',
+    messagingSenderId: '969810967946',
+    projectId: 'authencationproject-001',
+    authDomain: 'authencationproject-001.firebaseapp.com',
+    storageBucket: 'authencationproject-001.firebasestorage.app',
+    measurementId: 'G-57X8G67X01',
   );
+
 }
